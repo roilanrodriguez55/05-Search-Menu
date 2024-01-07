@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(211, 210, 210);
+  display: flex;
+}
+
+.menu {
+  width: 250px;
+  background-color: rgb(180, 178, 178);
+}
+
+.menu h1 {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 0;
+  line-height: 80px;
+  font-weight: 200;
+}
+
+.menu form input[type="text"] {
+  width: 230px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+  border: none;
+}
+
+.menu div {
+  width: 230px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu div:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.not-fount {
+  font-weight: bold;
+  background-color: rgb(180, 178, 178);
+  display: none;
+  padding: 0 10px;
+  width: 230px;
+  margin-top: 10px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.not-fount:hover {
+  background-color: rgb(180, 178, 178);
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
