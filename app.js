@@ -5,7 +5,7 @@ const notFound = document.querySelector(".not-fount");
 console.log(languages);
 
 input.addEventListener("input", () => {
-  searchLan(input.value);
+  searchLan(input.value.toLowerCase());
 });
 
 function searchLan(lenguaje) {
